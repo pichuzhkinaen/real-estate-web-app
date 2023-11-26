@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './rent.component.html',
-  styleUrl: './rent.component.css'
+  styleUrl: './rent.component.scss'
 })
 export class RentComponent {
 

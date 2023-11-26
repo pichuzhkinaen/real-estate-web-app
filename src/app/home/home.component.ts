@@ -10,7 +10,7 @@ import { NavHomeComponent } from '../nav-home/nav-home.component';
     NavHomeComponent,
   ],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.scss'
 })
 export class HomeComponent {
 
