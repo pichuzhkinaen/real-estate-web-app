@@ -1,0 +1,117 @@
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 234px;
+    height: 100%;
+    box-shadow: 10px 6px 20px #e9e9e9;
+    padding: 40px;
+
+    &__top {
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+    
+        &-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    &__logo {
+        font-size: 36px;
+        -webkit-text-stroke: 1px #001143;
+        text-stroke: 1px #001143;
+
+        &:first-child {
+            color: #651ce5;
+        }
+        &:last-child {
+            position: relative;
+            left: -6px;
+            color: #df397c;
+        }
+
+        &-text {
+            background: #121FCF;
+            background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    &__list {
+        margin-top: 100px;
+    }
+
+    &__item {
+        display: block;
+        font-size: 16px;
+        line-height: 44px;
+        color: #161616;
+    }
+
+    &__sublist {
+        padding-left: 16px;
+        margin-bottom: 24px;
+
+        &-item {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            line-height: 34px;
+            list-style: none;
+            color: #434343;
+        }
+    }
+
+    &__icon-wrapper {
+        width: 22px;
+        margin-right: 14px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #161616;
+
+        &--comprises {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    &__faq {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #454545;
+    }
+
+    &__bottom {
+        margin-top: auto;
+    }
+
+    &__support-vidget {
+        display: flex;
+        align-items: center;
+        margin-top: 36px;
+
+        &-avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 16px;
+        }
+
+        & .gg-bell {
+            margin-left: auto;
+        }
+    }
+
+    & .gg-chevron-down,
+    & .gg-chevron-up,
+    & .gg-chevron-double-right {
+        color: #adadad;
+    }
+}
